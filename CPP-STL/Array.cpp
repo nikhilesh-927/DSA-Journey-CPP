@@ -191,4 +191,100 @@ int main(){
     // second is not empty
     // third is not empty
 
+    //array "fill" member function
+    //Sets a value as the value for all the elements in the array 
+
+    array<int, 6> arrayFill;
+
+    arrayFill.fill(5);
+
+    cout << "arrayFill: ";
+
+    // for(auto x: arrayFill) cout << " " << x;
+
+    for(int &x : arrayFill) cout << " " << x;
+
+    cout << "\n";
+
+    //& represent memory address, but here it is representing value, how?
+    // int b = 10;
+    // int &ref = b; // Here, ref is a reference to variable 'b'
+
+    //In this context, int &ref does not fetch an address but rather creates a new name (alias) ref that refers to the same memory location as b. 
+    //Any update to ref will directly affect b, and vice versa.
+
+
+    //output
+    //arrayFill:  5 5 5 5 5 5
+
+    //array "max_size and size" member function
+
+    array<int, 10> arrayMax;
+
+    cout << "size of arrayMax: " << arrayMax.size() << endl;
+    cout << "size of arrayMax in bits: " << sizeof(arrayMax) << endl;
+    cout << "max_size of arrayMax: " << arrayMax.max_size() << endl;
+
+    //output
+    //size of arrayMax: 10
+    //size of arrayMax in bits: 40
+    //max_size of arrayMax: 10
+
+    //some facts:
+
+    // An unsigned int is a non-negative integer type.
+    // For a 32-bit unsigned int: [0,4,294,967,295]
+
+    //A signed int is a standard integer type that can store both positive and negative integer values
+    // For a 32-bit signed int: [−2,147,483,648,2,147,483,647]
+
+    //An int in C++ is typically synonymous with signed int, meaning it is a signed integer type by default.
+    //For a 32-bit int: [−2,147,483,648,2,147,483,647]
+
+    // array "[](operator)" member function
+
+    array<int, 10> arrayOperator;
+    unsigned int i;
+
+    for(i = 0; i < arrayOperator.size(); i++) arrayOperator[i] = i;
+
+    cout << "arrayOperator: ";
+    for(i = 0; i < arrayOperator.size(); i++) cout << " " << arrayOperator[i];
+
+    cout << "\n";
+
+    //output
+    //arrayOperator:  0 1 2 3 4 5 6 7 8 9
+
+    // array "swap" member function
+
+    array<int, 5> arraySwap1 = {10, 20, 30, 40, 50};
+    array<int, 5> arraySwap2 = {11, 22, 33, 44, 55};
+
+    cout << "original arraySwap1: ";
+    for(int &x: arraySwap1) cout << " " << x;
+    cout << "\n";
+    cout << "original arraySwap2: ";
+    for(int &x: arraySwap2) cout << " " << x;
+    cout << "\n";
+
+
+    //swap arrays
+
+    arraySwap1.swap(arraySwap2);
+
+    cout << "after swapping arraySwap1: ";
+    for(int &x: arraySwap1) cout << " " << x;
+    cout << "\n";
+    cout << "after swappiing arraySwap2: ";
+    for(int &x: arraySwap2) cout << " " << x;
+
+    cout << "\n";
+
+    //output
+    // original arraySwap1:  10 20 30 40 50
+    // original arraySwap2:  11 22 33 44 55
+    // after swapping arraySwap1:  11 22 33 44 55
+    // after swappiing arraySwap2:  10 20 30 40 50
+
 }
