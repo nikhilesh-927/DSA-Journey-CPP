@@ -107,4 +107,43 @@ int main(){
     // Before clear size: 2
     // After clear size: 0
 
+    cout << "vectorInit1: ";
+
+    vector<int> vectorInit1 = {1, 2, 3, 4};
+    for(int i : vectorInit1) cout << " "  << i;
+    cout << endl;
+
+    //output
+    //vectorInit1:  1 2 3 4
+
+    cout << "vectorInit2: ";
+
+    vector<int> vectorInit2(4);
+    for(int i = 0; i < vectorInit2.size(); i++) vectorInit2[i] = i+5;
+    for(int &i: vectorInit2) cout << " " << i;
+    cout << endl;
+
+    //output
+    //vectorInit2:  5 6 7 8
+
+    cout << "With using iterator: ";
+    for(vector<int>::iterator it = vectorInit2.begin(); it != vectorInit2.end(); ++it) cout << " " << *it;
+    cout << endl;
+
+    //output
+    //With using iterator:  5 6 7 8
+
+    vector<int> vectorInit3;
+    vectorInit3.push_back(10);
+    vectorInit3.push_back(20);
+    vectorInit3.push_back(30);
+    vectorInit3.push_back(40);
+    cout << "vectorInit3: ";
+
+    for(vector<int>::iterator it = vectorInit3.begin(); it != vectorInit3.end(); ++it) cout << " " << *it;
+    cout << endl;
+
+    //output
+    //vectorInit3:  10 20 30 40
+
 }
