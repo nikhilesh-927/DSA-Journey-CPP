@@ -157,7 +157,7 @@ int main(){
     array <int, 5> arraycrBegcrEnd = {8, 14, 23, 90, 65};
 
     cout << "arraycrBegcrEnd: ";
-    for(auto it = arraycrBegcrEnd.rbegin(); it != arraycrBegcrEnd.rend(); ++it) cout << " " << *it; 
+    for(auto it = arraycrBegcrEnd.crbegin(); it != arraycrBegcrEnd.crend(); ++it) cout << " " << *it; 
     // the above code will print the array in reverse order
     // but in this case we can not modify *it
     cout << "\n";
@@ -172,10 +172,16 @@ int main(){
 
     memcpy(charray.data(), cstr, 12);
 
+    //we are telling in above instruction to Take the first 12 bytes of data from the 
+    //memory location specified by the pointer cstr (which likely holds a C-style string or character data).
+
+    //memcpy() is used to copy a specified number of bytes from one memory location to another.
+
     cout << "charray: " <<  charray.data() << "\n";
 
     //output
     //charray: Test string
+
 
     // array "empty" member function
     array<int, 0> first;
