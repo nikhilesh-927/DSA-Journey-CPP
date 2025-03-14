@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Enter the number of rows: 5
 // *****
 // *   *
 // *   *
