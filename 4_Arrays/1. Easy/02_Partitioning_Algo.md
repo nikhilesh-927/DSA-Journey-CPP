@@ -9,7 +9,7 @@ Array: [10, 7, 8, 9, 1, 5]
 
 We will choose the **last element** (`5`) as our pivot for this example.
 
-### Step-by-Step Working
+### Step-by-Step Explanation
 
 1. **Initial Setup**
    - **Array:** `[10, 7, 8, 9, 1, 5]`
