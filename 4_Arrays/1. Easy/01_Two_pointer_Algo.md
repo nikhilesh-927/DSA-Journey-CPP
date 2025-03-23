@@ -51,7 +51,7 @@ After following the two-pointer technique, the reversed array is:
 [5, 4, 3, 2, 1]
 ```
 
-### Explanation of Each Step
+### Summary of Each Step
 Here's a summary of how the pointers move and how the array looks after each swap:
 
 1. Initial Array: `[1, 2, 3, 4, 5]`
