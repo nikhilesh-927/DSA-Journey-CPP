@@ -1,4 +1,4 @@
-Let's break down the partition algorithm through a more visual approach, step by step. We'll take a simple array for demonstration.
+Let's break down the partition algorithm. We'll take a simple array for demonstration.
 
 ### Example
 Let's say we have the following array:
@@ -9,7 +9,7 @@ Array: [10, 7, 8, 9, 1, 5]
 
 We will choose the **last element** (`5`) as our pivot for this example.
 
-### Step-by-Step Visualization
+### Step-by-Step Working
 
 1. **Initial Setup**
    - **Array:** `[10, 7, 8, 9, 1, 5]`

@@ -1,4 +1,4 @@
-Let's break down the two-pointer algorithm for reversing an array in a step-by-step visual manner.
+Let's break down the two-pointer algorithm for reversing an array in a step-by-step manner.
 
 ### Example
 Let's say we have the following array:
@@ -10,7 +10,7 @@ Array: [1, 2, 3, 4, 5]
 ### Two-Pointer Approach
 The two-pointer technique involves using two indices (or pointers) that start at opposite ends of the array and move towards each other. The basic idea is to swap the elements at these two pointers until they meet in the middle.
 
-### Step-by-Step Visualization
+### Step-by-Step Working
 
 1. **Initial Setup**
    - **Array:** `[1, 2, 3, 4, 5]`
@@ -51,7 +51,7 @@ After following the two-pointer technique, the reversed array is:
 [5, 4, 3, 2, 1]
 ```
 
-### Visualization of Each Step
+### Working of Each Step
 Here's a summary of how the pointers move and how the array looks after each swap:
 
 1. Initial Array: `[1, 2, 3, 4, 5]`
