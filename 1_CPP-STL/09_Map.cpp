@@ -1,6 +1,7 @@
 #include <iostream>
 #include <map>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -82,6 +83,24 @@ int main() {
 
     // Size of map: 2
     // Size of map after clearing: 0
+
+    map<int, int> testing;
+
+    vector<int> arr = {1, 3, 3, 1, 4, 5, 4};
+
+    for(const int & x: arr){
+        if(testing.find(x) == testing.end()){
+            testing[x];
+        }
+    }
+
+    cout << "The testing map is: { ";
+
+    for(const auto &x : testing) cout << "{" << x.first << " : " << x.second << "},";
+
+    cout << " }";
+
+    cout << endl;
 
     return 0;
 }
