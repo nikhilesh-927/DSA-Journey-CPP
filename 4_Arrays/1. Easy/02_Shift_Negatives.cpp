@@ -1,5 +1,14 @@
 /*
-Problem Description: Move all negative elements to the left and positives to the right irrespective of there order
+    
+    Challenge : Move all negatives to the left and Positives to the right
+
+    Challenge Description: Move all negative elements to the left and positives to the right irrespective of there order
+
+    Time Complexities : Approach 01 - Partition Algo - O(n) , Approach 02 - Two Pointer - O(n)
+
+    Space Complexities : Approach 01 - Partition Algo - O(1) , Approach 02 - Two Pointer - O(1)
+
+    Algo Used : Two algos - Partition and Two Pointer
 
 */
 

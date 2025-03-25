@@ -1,12 +1,14 @@
 /*
 
-    Problem : Move All Zeroes To End
+    Challenge : Move All Zeroes To End
 
     Problem Description: The task is to move all the zeros in the array to the right end 
     while maintaining the relative order of the non-zero elements.
 
     Time Complexity : O(n)
     Space Complexity : O(1)
+
+    Algo Used : Two Pointer
 */
 
 #include <bits/stdc++.h>

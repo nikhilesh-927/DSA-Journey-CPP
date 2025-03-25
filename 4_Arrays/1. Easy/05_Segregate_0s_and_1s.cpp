@@ -1,13 +1,15 @@
 /*
 
-    Problem : Segregate 0s and 1s
+    Challenge : Segregate 0s and 1s
 
-    Problem Description : Modify the array in-place to 
+    Challenge Description : Modify the array in-place to 
     segregate 0s onto the left side and 1s onto the right side of the array.
 
     Time Complexity : O(n)
 
     Spce Complexity : O(1)
+
+    Algo used : Two Pointer
 
 */
 

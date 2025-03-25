@@ -1,6 +1,12 @@
 /*
-    Problem : Remove duplicates in array
-    Problem Description : Given an array arr consisting of positive integer numbers, remove all duplicate numbers.
+    Challenge : Remove duplicates in array
+    Challenge Description : Given an array arr consisting of positive integer numbers, remove all duplicate numbers.
+
+    Time Complexity : O(n)
+    Space Complexity : O(n)
+
+    Algo used : Hashing-Based Algo
+
 */
 
 #include <bits/stdc++.h>

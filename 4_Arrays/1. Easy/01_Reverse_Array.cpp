@@ -1,7 +1,9 @@
 /*
     Description: This program reverses an array using two pointer technique. 
     Time Complexity: O(n) where n is the size of the array. 
-    Auxiliary Space: O(1). 
+    Auxiliary Space: O(1).
+
+    Algo used to solve the challenge : Two-pointer Algorithm
 */
 
 #include <bits/stdc++.h>

@@ -1,12 +1,14 @@
 /*
 
-    Problem : Move all negatives to the end
+    Challenge : Move all negatives to the end
 
-    Problem Description : The task is to place all negative elements at the end of the array
+    Challenge Description : The task is to place all negative elements at the end of the array
     without changing the order of positive elements and negative elements.
 
     Time Complexity : O(n)
     Space Complexity : O(n)
+
+    Algo used : Two Pass Algorithm
 
 */
 
