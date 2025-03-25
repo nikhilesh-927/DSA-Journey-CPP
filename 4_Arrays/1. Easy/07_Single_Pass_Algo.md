@@ -3,7 +3,7 @@ Let's simplify the explanation even further using a clearer approach, with a foc
 ### Goal
 
 We want to find the **first smallest** and **second smallest** numbers in the given array:
-\[ \text{arr} = [7, 3, 1, 4, 2] \]
+`[7, 3, 1, 4, 2]`
 
 ### Key Variables
 
